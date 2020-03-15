@@ -1,5 +1,8 @@
 import React from 'react';
-import Account from './Home';
+import Account from './Account';
+import Home from './Home';
+import Cart from './Cart';
+import Product from './Product';
 
 function NavBar() {
   return (
@@ -7,9 +10,9 @@ function NavBar() {
 		<nav>
 			<ul>
 				<li><Account/></li>
-				<li>Home</li>
-				<li>Home</li>
-				<li>Home</li>
+				<li><Home/></li>
+				<li><Cart/></li>
+				<li><Product/></li>
 			</ul>
 		</nav>
     </div>
